@@ -9,4 +9,4 @@ namespace OrderRegistry.Infrastructure.Data
 
         public DbSet<Order> Orders { get; set; }
     }
-}
+} 
