@@ -10,3 +10,4 @@ namespace OrderRegistry.Domain.Entities
         public string State { get; set; } = "Pending";
     }
 }
+ 
