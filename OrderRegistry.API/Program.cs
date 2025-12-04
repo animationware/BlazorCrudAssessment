@@ -40,7 +40,7 @@ if (app.Environment.IsDevelopment())
 app.UseCors("AllowAll"); // <-- esto permite que Blazor WASM haga requests
 app.UseHttpsRedirection();
 
-// Mapea los controllers
+// Mapea los controllers 
 app.MapControllers();
 
 var summaries = new[]
