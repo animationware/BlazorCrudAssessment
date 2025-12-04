@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "OrderRegistry.Domain/1.0.0": {
+        "runtime": {
+          "OrderRegistry.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderRegistry.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

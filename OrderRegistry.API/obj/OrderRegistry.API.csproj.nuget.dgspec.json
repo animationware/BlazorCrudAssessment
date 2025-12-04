@@ -1,0 +1,231 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.API/OrderRegistry.API.csproj": {}
+  },
+  "projects": {
+    "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.API/OrderRegistry.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.API/OrderRegistry.API.csproj",
+        "projectName": "OrderRegistry.API",
+        "projectPath": "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.API/OrderRegistry.API.csproj",
+        "packagesPath": "/home/darknet/.nuget/packages/",
+        "outputPath": "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/darknet/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.Domain/OrderRegistry.Domain.csproj": {
+                "projectPath": "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.Domain/OrderRegistry.Domain.csproj"
+              },
+              "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.Infrastructure/OrderRegistry.Infrastructure.csproj": {
+                "projectPath": "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.Infrastructure/OrderRegistry.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/darknet/.dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.Domain/OrderRegistry.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.Domain/OrderRegistry.Domain.csproj",
+        "projectName": "OrderRegistry.Domain",
+        "projectPath": "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.Domain/OrderRegistry.Domain.csproj",
+        "packagesPath": "/home/darknet/.nuget/packages/",
+        "outputPath": "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/darknet/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/darknet/.dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.Infrastructure/OrderRegistry.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.Infrastructure/OrderRegistry.Infrastructure.csproj",
+        "projectName": "OrderRegistry.Infrastructure",
+        "projectPath": "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.Infrastructure/OrderRegistry.Infrastructure.csproj",
+        "packagesPath": "/home/darknet/.nuget/packages/",
+        "outputPath": "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/darknet/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.Domain/OrderRegistry.Domain.csproj": {
+                "projectPath": "/home/darknet/Dev/dotNET/BlazorCrudAssessment/OrderRegistry.Domain/OrderRegistry.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/darknet/.dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
